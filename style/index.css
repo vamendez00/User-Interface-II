@@ -1,1 +1,84 @@
-/* Add CSS styling here */
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px black solid;
+    max-width: 100%;
+    text-align: center;
+    
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.pageContainer {
+    display:flex;
+    flex-direction:column;
+    background-color: white;
+    width: 98%;
+    justify-content: space-between;
+}
+
+h1 {
+    color: darkgreen;
+    margin-left:2%;
+    margin-bottom:1%;
+}
+
+header {
+    margin-top:1%;
+}
+
+nav {
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    vertical-align: bottom;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.menu a:hover {
+    color:rgb(175, 7, 7);
+}
+
+.topSection {
+    width: 98%;
+    height: 40vh;
+    background-image:url('/images/alexander-sinn.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center top;
+    margin-bottom:2%;
+}
+
+.mainImage {
+    width:90%;
+}
+
+.projectGallery {
+    margin-left: 1%;
+    width: 98%;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+}
+
+.projects {
+    width:30%;
+    height: 20vh;
+    background-color: goldenrod;
+}
+
+.projectBlurb{
+    width: 30%;
+}

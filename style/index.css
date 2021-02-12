@@ -1,14 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     max-width: 100%;
     text-align: center;
-    
 }
 
 body {
     font-family: 'Poppins', sans-serif;
+    margin-left:2%;
+    margin-right:2%;
 }
 
 .pageContainer {
@@ -31,7 +32,7 @@ header {
 
 nav {
     display: flex;
-    width: 98%;
+    width: 99%;
     justify-content: space-between;
     vertical-align: bottom;
 }
@@ -52,15 +53,22 @@ nav {
 }
 
 .topSection {
-    width: 98%;
+    width: 94%;
     height: 40vh;
     background-image:url('/images/alexander-sinn.jpg');
     background-size: cover;
     background-repeat:no-repeat;
     background-position:center top;
     margin-bottom:2%;
+    margin-left:3%;
+    margin-right:2%;
 }
 
+.topSection p {
+    color:white;
+    background-color:black;
+    font-size: 3rem;
+}
 .mainImage {
     width:90%;
 }

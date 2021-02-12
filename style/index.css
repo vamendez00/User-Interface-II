@@ -21,6 +21,7 @@ body {
 }
 
 h1 {
+    font-size: 2rem;
     color:rgb(175, 7, 7);
     margin-left:2%;
     margin-bottom:1%;
@@ -40,17 +41,23 @@ nav {
 .menu {
     width: 50%;
     display: flex;
+    flex-wrap:wrap;
     justify-content: space-between;
 }
 
 .menu a {
     text-decoration: none;
+    font-size: 1.2rem;
     color: black;
-    margin-top:1%;
+    margin-top:2%;
 }
 
 .menu a:hover {
     color:goldenrod;
+}
+
+.menu a:active{
+    font-size: 1.4rem;
 }
 
 .topSection {
@@ -89,9 +96,64 @@ nav {
 }
 
 .projects:hover {
-    background-color: darkred;
+    background-color:rgb(175, 7, 7);
 }
 
 .projectBlurb{
     width: 30%;
 }
+
+.aboutTopSection {
+    width: 94%;
+    height: 40vh;
+    background-image:url('/images/ian-schneider.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center top;
+    margin-bottom:2%;
+    margin-left:3%;
+    margin-right:2%;
+}
+
+.aboutTopSection p {
+    color:white;
+    background-color:black;
+    font-size: 3rem;
+}
+
+.projectsTopSection {
+    width: 94%;
+    height: 40vh;
+    background-image:url('/images/florian-olivo.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center top;
+    margin-bottom:2%;
+    margin-left:3%;
+    margin-right:2%;
+}
+
+.projectsTopSection p {
+    color:white;
+    background-color:black;
+    font-size: 3rem;
+}
+
+.contactTopSection {
+    width: 94%;
+    height: 40vh;
+    background-image:url('/images/maxim-ilyahov.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center top;
+    margin-bottom:2%;
+    margin-left:3%;
+    margin-right:2%;
+}
+
+.contactTopSection p {
+    color:white;
+    background-color:black;
+    font-size: 3rem;
+}
+

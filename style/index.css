@@ -1,1 +1,223 @@
-/* Add CSS styling here */
+/*SETUP */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+/* border: 0;   */
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END */
+
+* {
+    /* border: 1px black solid; */
+    max-width: 100%;
+    text-align: center;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin-left:2%;
+    margin-right:2%;
+}
+
+.pageContainer {
+    box-sizing: border-box;
+    display:flex;
+    flex-direction:column;
+    background-color: white;
+    width: 98%;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 2rem;
+    color:rgb(175, 7, 7);
+    margin-left:2%;
+    margin-bottom:1%;
+}
+
+header {
+    margin-top:1%;
+}
+
+nav {
+    display: flex;
+    width: 99%;
+    justify-content: space-between;
+    vertical-align: bottom;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    margin-top:2%;
+}
+
+.menu a:hover {
+    color:goldenrod;
+}
+
+.menu a:active{
+    font-size: 1.4rem;
+}
+
+.topSection {
+    width: 94%;
+    height: 40vh;
+    background-image:url('/images/alexander-sinn.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center top;
+    margin-bottom:2%;
+    margin-left:3%;
+    margin-right:2%;
+}
+
+.topSection p {
+    color:white;
+    background-color:black;
+    font-size: 3rem;
+}
+.mainImage {
+    width:90%;
+}
+
+.projectGallery {
+    margin-left: 1%;
+    width: 98%;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+}
+
+.projects {
+    width:30%;
+    height: 20vh;
+    background-color: goldenrod;
+}
+
+.projects:hover {
+    background-color:rgb(175, 7, 7);
+}
+
+.projectBlurb{
+    width: 30%;
+}
+
+.aboutTopSection {
+    width: 94%;
+    height: 40vh;
+    background-image:url('/images/ian-schneider.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center top;
+    margin-bottom:2%;
+    margin-left:3%;
+    margin-right:2%;
+}
+
+.aboutTopSection p {
+    color:white;
+    background-color:black;
+    font-size: 3rem;
+}
+
+.projectsTopSection {
+    width: 94%;
+    height: 40vh;
+    background-image:url('/images/florian-olivo.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center top;
+    margin-bottom:2%;
+    margin-left:3%;
+    margin-right:2%;
+}
+
+.projectsTopSection p {
+    color:white;
+    background-color:black;
+    font-size: 3rem;
+}
+
+.contactTopSection {
+    width: 94%;
+    height: 40vh;
+    background-image:url('/images/maxim-ilyahov.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center top;
+    margin-bottom:2%;
+    margin-left:3%;
+    margin-right:2%;
+}
+
+.contactTopSection p {
+    color:white;
+    background-color:black;
+    font-size: 3rem;
+}
+
+
+/* MEDIA QUERIES */
+
+/* TABLET */
+@media(max-width:800px){ 
+
+}
+
+ 
+ @media(max-width:500px){
+    nav{
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+    }   
+
+ }

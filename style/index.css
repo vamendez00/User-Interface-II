@@ -80,7 +80,6 @@ header {
 
 nav {
     display: flex;
-    width: 99%;
     justify-content: space-between;
     vertical-align: bottom;
 }
@@ -122,8 +121,9 @@ nav {
 .topSection p {
     color:white;
     background-color:black;
-    font-size: 3rem;
+    font-size: 4rem;
 }
+
 .mainImage {
     width:90%;
 }
@@ -210,7 +210,85 @@ nav {
 /* TABLET */
 @media(max-width:800px){ 
 
+.pageContainer {
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
 }
+
+header {
+    align-content: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5%;
+    width: 100%;
+    font-size: 5rem;
+    text-align: center;
+}
+
+nav {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.menu {
+        flex-direction: column;
+        justify-content: center;
+        align-content:center;
+        align-items: center;
+        width: 100%;
+        line-height: 150%;
+        margin-bottom: 5%;
+        
+}
+ 
+.menu a {
+    width: 50%;
+    font-size: 1.5rem;
+    background-color:goldenrod;
+    border: 2px solid white;
+    margin: 0;
+padding:0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    justify-content: center;
+    align-items:center;
+align-content:center;
+}
+
+.menu a:hover {
+    font-size:1.7rem;
+    background-color: black;
+    color:white;
+    transition:.2s;}
+
+.topSection {
+    width: 80%;
+    height: 40vh;
+    background-image:url('/images/alexander-sinn.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center top;
+    margin-bottom:2%;
+    margin-left:3%;
+    margin-right:2%;
+}
+
+.topSection p {
+    color:white;
+    background-color:black;
+    font-size: 3.5rem;
+}
+
+.mainImage {
+    width:90%;
+}
+
 
  
  @media(max-width:500px){

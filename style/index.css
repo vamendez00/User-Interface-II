@@ -158,7 +158,7 @@ nav {
 }
 
 .project:hover {
-    background-color:rgb(175, 7, 7);
+    background-color:grey;
     transition:.5s;
 }
 
@@ -241,7 +241,7 @@ nav {
         padding: 0;
         margin-bottom: 5%;
         width: 100%;
-        font-size: 5rem;
+        font-size: 4.5rem;
         text-align: center;
     }
 
@@ -283,18 +283,24 @@ nav {
         color:white;
         transition:.2s;}
 
-    /* .topSection {
+    .topSection {
+        align-content:center;
+        align-items:center;
         width:80%;
         height: 40vh;
-    } */
+    }
 
     .topSection p {
     font-size: 3rem;
+    width:100%;
+    color:black;
+    background-color:white;
     }
 
     .mainImage{
         height:20vh;
         margin-bottom: 5%;
+        width:100%;
     }
 
     .projectGallery {
@@ -331,20 +337,41 @@ nav {
 
     .mainImage {
         width:90%;
+        height: 80vh;
     }
 
-
+}
  
  @media(max-width:500px){
     h1 {
-         font-size: 2rem;
+         font-size: 1.8rem;
         }
 
     .menu a {
         font-size: .8rem;
     }
 
-    .topSection p {
-        font-size: 1.8rem;
+    .mainImage {
+        width:100%;
+        height: 100vh;
     }
+}
+
+@media(max-width:200px){
+    h1 {
+        font-size: 1rem;
+       }
+
+    .menu {
+        width: 100%;
+    }
+
+   .menu a {
+       padding:1%;
+       font-size: .6rem;
+   }
+
+   .topSection p {
+       font-size: 1.2rem;
+   }
 }
